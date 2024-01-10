@@ -1,0 +1,149 @@
+body {
+    background-color: #171717;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.get-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.custom-button {
+    color: #fff;
+    background: linear-gradient(100deg, #00ad23 0%, #b5e80d 100%);
+    padding: 25px 65px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 30px;
+    transition : 626ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 30px;
+    user-select: none;
+}
+
+.custom-button:hover{
+    transition : 626ms;
+    transform : translateY(-1px);
+    color: #ffffff;
+}
+
+.custom-button:active{
+    background-color: #1d1d1d;
+    transform: translateY(0.125rem);
+    background: linear-gradient(100deg, #008a1c 0%, #91ba0a 100%);
+}
+
+.form-currency{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.amazing-converter{
+    text-align: center;
+    color:#ffffff;
+    font-size: 34px;
+    font-family: 'Hind', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.amazing-converterR{
+    text-align: center;
+    color:#ffffff;
+    font-size: 34px;
+    font-family: 'Hind', sans-serif;
+    margin-top: 5px;
+}
+
+
+.currencyGems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.currencyGems input {
+    border-width:2px; 
+    border-color:#cccccc; 
+    padding:6px; 
+    font-size:20px; 
+    height: 24px;
+    text-align:left; 
+    border-style:double;
+    border-radius:30px; 
+    background-color:#ffffff;
+    width: 308px;
+}
+
+.currencyGems input:focus { 
+    outline:none; 
+} 
+
+.currencyGems select{
+    height: 38px;
+    border-radius:50px; 
+    width: 76px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.calculate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculate-button{
+    font-size: 20px;
+    color: #fff;
+    background: #1d1d1d;
+    padding: 15px 150px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 25px 0px 0px 0px;
+    width: 415px;
+}
+
+
+.output-gems{
+    height: 60px;
+    width: 415px;
+    background-color: #252525;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 128.1px;
+}
+
+.output-gems p{
+    font-size: 32px;
+    color:#fff;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin: 0 ;
+} 
+
+.output-gems img{
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    display: none;
+}

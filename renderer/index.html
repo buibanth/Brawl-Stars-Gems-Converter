@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="renderer.js" defer></script>
+    <title>Free GEMS</title>
+</head>
+<body>
+    <div class="get-started" id="getStarted" onclick="showConverter()"> <!--add transition-->
+        <button class="custom-button" role="button">Get Started</button>
+    </div>
+    <form id="formCurrency" class="form-currency" style="display: none;"> <!--So my idea is to create a form where u can convert some currency to brawl stars gems-->
+        <p class="amazing-converter">Brawl Stars </p><p class="amazing-converterR"> GEMS converter</p>
+        <div class="currencyGems">
+            <select  id="currency" onchange="updateCurrencySymbol(), updateOutputGems()">
+                <option value="dollar">USD</option>
+                <option value="euro">EUR</option>
+                <option value="hryvna">UAH</option>
+                <option value="zloty">PLN</option>
+                <option value="pound">GBP</option>
+                <option value="yuan">CNY</option>
+                <option value="rupee">INR</option>
+            </select>
+            <input id="inputMoney" type="text" placeholder="Enter amount" oninput="addCurrencySymbol()"><!--
+                Got to add the sign of that currency to the input field-->
+        </div>
+        <div class="calculate" onclick="calculateGems(), showImage()">
+            <button type="button" class="calculate-button">Calculate</button>
+        </div>
+        <div class="output-gems">
+            <p id="outputGems"></p>
+            <img id="imageGems" src="https://static.wikia.nocookie.net/brawlstars/images/6/69/Gema.png/revision/latest?cb=20210706030112&path-prefix=es" alt="Gem Image"><!--Here the output of AMAZING mathmatic calculations will be shown. PEREMOGA BUDE!!!!!!!-->
+        </div>
+    </form>
+</body>
+</html>

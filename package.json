@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "productName": "yaaaaaaaay",
+  "version": "1.0.0",
+  "description": "idk yet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon main.js"
+  },
+  "author": "Hubenko Illia",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
