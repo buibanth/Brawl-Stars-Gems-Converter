@@ -2,7 +2,7 @@
   "name": "electron-app",
   "productName": "Brawl Stars Gems Converter",
   "version": "1.0.0",
-  "description": "idk yet",
+  "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
